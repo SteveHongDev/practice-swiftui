@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49404A8029DE6F8F00648777 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49404A7F29DE6F8F00648777 /* ChartView.swift */; };
+		49404A8229DE75B600648777 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49404A8129DE75B600648777 /* GridView.swift */; };
 		495618AB29DD52FB00BA8A5C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495618AA29DD52FB00BA8A5C /* MessageView.swift */; };
 		495618AD29DD53F900BA8A5C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495618AC29DD53F900BA8A5C /* MenuView.swift */; };
 		49739CF529D592AC00F8A986 /* DesignCodeiOS16App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49739CF429D592AC00F8A986 /* DesignCodeiOS16App.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		49404A7F29DE6F8F00648777 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		49404A8129DE75B600648777 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		495618AA29DD52FB00BA8A5C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		495618AC29DD53F900BA8A5C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		49739CF129D592AC00F8A986 /* DesignCodeiOS16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeiOS16.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 				49FE617B29DBF17F00AA8A1B /* NavigationStackView.swift */,
 				49739CF429D592AC00F8A986 /* DesignCodeiOS16App.swift */,
 				49739CF629D592AC00F8A986 /* ContentView.swift */,
+				49404A8129DE75B600648777 /* GridView.swift */,
 				49404A7F29DE6F8F00648777 /* ChartView.swift */,
 				495618AC29DD53F900BA8A5C /* MenuView.swift */,
 				495618AA29DD52FB00BA8A5C /* MessageView.swift */,
@@ -154,6 +157,7 @@
 			files = (
 				49739CF729D592AC00F8A986 /* ContentView.swift in Sources */,
 				495618AD29DD53F900BA8A5C /* MenuView.swift in Sources */,
+				49404A8229DE75B600648777 /* GridView.swift in Sources */,
 				49FE617C29DBF17F00AA8A1B /* NavigationStackView.swift in Sources */,
 				49404A8029DE6F8F00648777 /* ChartView.swift in Sources */,
 				49739CF529D592AC00F8A986 /* DesignCodeiOS16App.swift in Sources */,
