@@ -32,7 +32,7 @@ struct ContentView: View {
             case .card:
                 Text("Card")
             case .charts:
-                ChartView()
+                DetailView()
             case .radial:
                 Text("Radial")
             case .halfsheet:
@@ -42,6 +42,9 @@ struct ContentView: View {
             case .actionbutton:
                 Text("Action Button")
             }
+            
+        }
+        .onTapGesture {
             
         }
         .gesture(longPress)
