@@ -32,7 +32,7 @@ struct ContentView: View {
             case .card:
                 Text("Card")
             case .charts:
-                Text("Charts")
+                ChartView()
             case .radial:
                 Text("Radial")
             case .halfsheet:
