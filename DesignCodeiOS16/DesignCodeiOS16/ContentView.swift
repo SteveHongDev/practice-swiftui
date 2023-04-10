@@ -34,7 +34,7 @@ struct ContentView: View {
             case .charts:
                 DetailView()
             case .radial:
-                Text("Radial")
+                RadialLayoutView()
             case .halfsheet:
                 MenuView()
             case .gooey:
