@@ -30,7 +30,7 @@ struct ContentView: View {
             case .compass:
                 MessageView()
             case .card:
-                Text("Card")
+                CardReflectionView()
             case .charts:
                 DetailView()
             case .radial:
