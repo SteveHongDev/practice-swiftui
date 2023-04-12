@@ -40,7 +40,7 @@ struct ContentView: View {
             case .gooey:
                 Text("Gooey")
             case .actionbutton:
-                Text("Action Button")
+                ActionButtonView()
             }
             
         }
