@@ -28,7 +28,7 @@ struct ContentView: View {
             
             switch selectedMenu {
             case .compass:
-                MessageView()
+                CompassView()
             case .card:
                 CardReflectionView()
             case .charts:
@@ -44,6 +44,7 @@ struct ContentView: View {
             }
             
         }
+        .overlay(MessageView())
         .onTapGesture {
             
         }
